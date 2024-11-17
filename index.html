@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter APP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- wrapper -->
+
+    <div class="flex flex-col w-[100vw] h-[100vh] items-center justify-center bg-[#344151] gap-10">
+
+        <!-- heading -->
+        <div class="text-[#0398d4] font-medium text-[25px]">Increment And Decrement</div>
+        <div class=" flex text-[25px] gap-12 bg-[#FFFFFF] p-3 px-5 rounded-md">
+
+            <!-- decrement button  -->
+            <button onclick="decrement()" class="border-r-2 boredr-[#bfbfbf] pr-5 ">
+                <i class="fa-solid fa-minus"></i>
+            </button>
+            <div id="counter" class="font-bold">0</div>
+            <!-- increment button  -->
+            <button onclick="increment()" class="border-l-2 boredr-[#bfbfbf] pl-5">
+                <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+    </div>
+    <footer>
+        <span>Created By <a href="https://www.linkedin.com/in/satyanand-gupta-836106282/">#@Satya Gupta</a>| <span
+                class="far fa-copyright"></span> November 2024 All Rights Reserved.</span>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
